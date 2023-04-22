@@ -40,16 +40,16 @@ def load_LLM(openai_api_key):
 
 
 
-st.set_page_config(page_title="My App", page_icon=":smiley:", layout="wide", initial_sidebar_state="expanded")
-st.header("My App")
+st.set_page_config(page_title="WriteRightAI", page_icon=":robot_face:")
+st.header("WriteRightAI")
 
-col1,col2 = st.columns(2)
+# col1,col2 = st.columns(2)
 
-with col1:
-    st.markdown("## Column 1")
+# with col1:
+#     st.markdown("## Column 1")
 
-with col2:
-    st.markdown("## Column 2")
+# with col2:
+#     st.markdown("## Column 2")
 
 st.markdown("## Enter your Email to Convert")
 
